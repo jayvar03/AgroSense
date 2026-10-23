@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="agro-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+    <linearGradient id="agro-leaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#86efac" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+  </defs>
+  <!-- Background squircle -->
+  <rect width="64" height="64" rx="16" fill="url(#agro-grad)" />
+  <!-- Sprout Stem -->
+  <path d="M32 50 C32 36 32 26 32 20" stroke="#f0fdf4" stroke-width="4.5" stroke-linecap="round" />
+  <!-- Left Leaf -->
+  <path d="M32 34 C24 34 16 28 16 18 C26 18 32 26 32 34 Z" fill="url(#agro-leaf)" />
+  <!-- Right Leaf -->
+  <path d="M32 26 C40 26 48 20 48 10 C38 10 32 18 32 26 Z" fill="#ffffff" />
+</svg>
